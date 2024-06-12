@@ -47,3 +47,4 @@ test/test_schema.db
 /lib/**/*.cpp
 # cython annotated output
 /lib/**/*.html
+/.meltano/
