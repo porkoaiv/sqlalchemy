@@ -66,6 +66,7 @@ postgresql-psycopg2binary = ["psycopg2-binary"]
 postgresql-psycopg2cffi = ["psycopg2cffi"]
 postgresql-psycopg = ["psycopg>=3.0.7,!=3.1.15"]
 postgresql-psycopgbinary = ["psycopg[binary]>=3.0.7,!=3.1.15"]
+vertica = ["vertica-python>=1.1.1"]
 pymysql = ["pymysql"]
 aiomysql = [
     "greenlet!=0.4.17",  # same as ".[asyncio]" if this syntax were supported
@@ -97,6 +98,7 @@ postgresql_psycopg2binary = ["sqlalchemy[postgresql-psycopg2binary]"]
 postgresql_psycopg2cffi = ["sqlalchemy[postgresql-psycopg2cffi]"]
 postgresql_psycopg = ["sqlalchemy[postgresql-psycopg]"]
 postgresql_psycopgbinary = ["sqlalchemy[postgresql-psycopgbinary]"]
+vertica_vertica-python = ["vertica-python"]
 
 [tool.setuptools]
 include-package-data = true
